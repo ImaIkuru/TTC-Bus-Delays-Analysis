@@ -1,0 +1,7 @@
+#
+#This SQL Query was used to join linked tables to create a shapefiles showing the location of every TTC bus stop
+SELECT A.stop_id,A.stop_code,A.stop_name, D.route_id, D.route_short_name, A.stop_lat, A.stop_lon
+FROM stops A
+INNER JOIN stop_times B ON A.stop_id = B.stop_id
+INNER JOIN trips C ON B.trip_id = C.trip_id
+INNER JOIN routes D ON C.route_id= D.route_id;
