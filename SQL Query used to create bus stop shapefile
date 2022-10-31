@@ -1,5 +1,5 @@
 #
-#This SQL Query was used to join linked tables to create a shapefiles showing the location of every TTC bus stop
+#This SQL Query was used to retrieve route and location info for every bus stop
 
 
 SELECT A.stop_id,A.stop_code,A.stop_name, D.route_id, D.route_short_name, A.stop_lat, A.stop_lon
