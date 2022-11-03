@@ -1,7 +1,7 @@
 # TTC-Bus-Delays-Analysis
 ### The Toronto Transit Commission experiences service delays for various reasons. This analysis attempts to answer the questions "Where do bus delays occur in Toronto?" and "Why do bus delays occur at these locations?"
 
-## Contents
+## Script Contents
  #### 1.1 Delays Data Wrangling & Consistency Checks 
  #### 1.2 Wrangling ward, points of interest and stops datasets- generating stops geojson -geopandas
  #### 1.3 Locations-Data wrangling and Cleaning - fuzzy matching, merging
